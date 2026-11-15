@@ -1,0 +1,3 @@
+# Test-only dependencies (kept out of requirements.txt so the runtime pins
+# stay exactly as specified).
+pytest>=8.0

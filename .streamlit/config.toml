@@ -1,0 +1,13 @@
+# Light is the base theme on purpose: the dark palette is applied at runtime by
+# theme.py, and any widget that palette misses then falls back to light rather
+# than clashing with a dark shell. Keep [theme] minimal — setting colors here
+# would fight the in-app toggle.
+[theme]
+base = "light"
+
+[server]
+headless = true
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
